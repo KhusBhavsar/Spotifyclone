@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="loading-bar"></div>
+    <div class='in'>
+        <form>
+            <h3 align="center">Welcome!! To Spotify</h3>
+            <center><img src="remov.jpg" alt="logo" width="15%"></center>
+            <div class="input">
+                <input class='inputBox' type="text" placeholder='Enter your name' />
+
+                <input class='inputBox' type="email" placeholder='Enter your email' />
+
+                <input class='inputBox' type="password" placeholder='Enter your password' />
+
+            </div>
+            <button type='button' class="btn btn-outline-light">SignUp</button>
+            <div class="p2">
+                <p>Already Have An Account,You Say?</p>
+                <button type="button" class="login-btn btn btn-outline-light" onclick="startLoading()">Login</button>
+            </div>
+            <div class="another-SignUp">
+                <p>Or Sign Up With:</p>
+                <a href="#"><img src="google.png" alt="Google" width="30px"></a>
+                <a href="#"><img src="facebook.png" alt="Facebook" width="30px"></a>
+                <a href="#"><img src="insta.png" alt="Instagram" width="30px"></a>
+                <a href="#"><img src="twitter.png" alt="Twitter" width="30px"></a>
+                <br><br>
+            </div>
+        </form>
+    </div>
+    <script>
+        function startLoading() {
+            // Get the loading bar element
+            const loadingBar = document.getElementById('loading-bar');
+
+            // Set the width of the loading bar to 100% over 12 seconds
+            loadingBar.style.width = '100%';
+
+            // Redirect to the login page after 12 seconds
+            setTimeout(() => {
+                window.location.href = 'login.html';
+            }, 12000);
+        }
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

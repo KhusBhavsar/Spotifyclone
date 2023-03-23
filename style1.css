@@ -1,0 +1,66 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-position: center center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#loading-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4px;
+    width: 0;
+    background-color: rgb(255, 255, 255);
+    transition: width 12s;
+  }
+
+
+.p2 {
+    display: flex;
+    width: 90%;
+    margin: 5px auto;
+    justify-content: space-around;
+}
+
+.p2 p {
+    font-size: large;
+    text-decoration: none;
+    text-shadow: none;
+    padding-top: 20px;
+    margin: 0px;
+    color:   #7FFFD4;
+
+}
+
+.another-SignUp {
+    display: flex;
+    margin-top: 10px auto;
+    width: 100%;
+    margin: 5px auto;
+    justify-content: center;
+   
+}
+
+.another-SignUp p {
+    width: 25%;
+    font-size: smaller;
+    text-decoration: none;
+    /* padding-top: 10px; */
+    margin: 0px;
+    color:  #7FFFD4;
+}
+
+.another-SignUp img {
+    padding: 2px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
