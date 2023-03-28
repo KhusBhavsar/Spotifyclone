@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url('nature6.jpg');
+    background-image: url('images/nature6.jpg');
     backdrop-filter: blur(5px);
     height: 100%;
     background-size: cover;
@@ -214,7 +214,7 @@ body{
     width: 25%;
     height: 186px;
     padding: 15px;
-    background-image: url('67258209.jpg');
+    background-image: url('images/67258209.jpg');
     background-size: contain;
     border-radius: 6px;
     cursor: pointer;

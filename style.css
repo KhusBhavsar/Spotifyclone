@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url('nature6.jpg');
+  background-image: url('images/nature6.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   backdrop-filter: blur(2px);
@@ -47,7 +47,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background: url('spotify-unscreen.gif') no-repeat center center fixed;
+  background: url('images/spotify-unscreen.gif') no-repeat center center fixed;
   overflow: hidden;
   width: 100%;
   min-height: 100%;
